@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": "PHPFRONTSESSID",
-      "value": "ph1q5rpd7llusubgjvebidcgbn",
+      "value": "muiojhlkmqn0hq3dnm5olpa6qe",
       "domain": "brand.1851dev.com",
       "path": "/",
       "expires": -1,
@@ -15,14 +15,14 @@
       "value": "7db38c3e5456d4d7d7f6ff1c89a5a2515d981d55eabea76553116cf7efea6389a%3A2%3A%7Bi%3A0%3Bs%3A6%3A%22_brand%22%3Bi%3A1%3Bs%3A19%3A%22%5B1019%2Ctrue%2C2592000%5D%22%3B%7D",
       "domain": "brand.1851dev.com",
       "path": "/",
-      "expires": 1690202879.404922,
+      "expires": 1690460371.962894,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_brandCSRF",
-      "value": "dd4ebb32e1021110a5139531bb353661accabafa18df28ccecec4d4a4e9a95f6a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_brandCSRF%22%3Bi%3A1%3Bs%3A32%3A%22PW8w0pazSAhNetr1Kd7Y6bzzJRoHnKlH%22%3B%7D",
+      "value": "2ec1d88be00356eef67637f5402ddbac0767aa8c4cd00b90c283a6760f3d2355a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_brandCSRF%22%3Bi%3A1%3Bs%3A32%3A%22GaXjqWIiUDft967QOhzjPqGVHgOxVwJu%22%3B%7D",
       "domain": "brand.1851dev.com",
       "path": "/",
       "expires": -1,
@@ -36,20 +36,12 @@
       "origin": "https://brand.1851dev.com",
       "localStorage": [
         {
-          "name": "endDate",
-          "value": "2023-06-23"
-        },
-        {
-          "name": "startDate",
-          "value": "2023-05-25"
+          "name": "id",
+          "value": "1019"
         },
         {
           "name": "token",
-          "value": "Ktb5bh4VRnJW2wkvI3aXzN3Kh655ecq5"
-        },
-        {
-          "name": "id",
-          "value": "1019"
+          "value": "IdmdPduYRmaM9xPp1DF5FUK9jX54DBr3"
         }
       ]
     }

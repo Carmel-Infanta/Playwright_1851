@@ -1,7 +1,7 @@
 const {test,expect,chromium} = require('@playwright/test');
 test('brand login', async ({  }) => {
    const browser = await chromium.launch()  
-const context = await browser.newContext({storageState: 'auth.json'})
+const context = await browser.newContext({storageState: 'brand.json'})
 const page = await context.newPage()
 
 await page.goto('https://brand.1851dev.com/');
