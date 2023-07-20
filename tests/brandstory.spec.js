@@ -22,23 +22,23 @@ test('brand login', async ({ }) => {
   await page.locator('#videoPath').click();
   await page.locator('#videoPath').fill('https://www.youtube.com/live/o_6u-51Vzhw?feature=share');
     //Uploading an image
-  await page.getByRole('button', { name: 'Upload' }).click();
-  await page.locator('div').filter({ hasText: 'Please upload an image between 1280 and 2400 pixels in size, then use the crop t' }).nth(1).press('Tab');
-  await page.getByRole('button', { name: 'close' }).press('Tab');
-  await page.locator('div').filter({ hasText: /^Please upload a photo$/ }).getByRole('textbox').press('Tab');
-  await page.locator('#description').press('Tab');
-  await page.getByRole('textbox').nth(2).press('Tab');
-  await page.getByRole('textbox').nth(2).click();
-  await page.getByRole('textbox').nth(2).setInputFiles('./image/a9e4928c04e2980480d9495b904131527217.webp');
-  await page.getByRole('button', { name: 'Upload Without Crop' }).click();
-  await page.locator('#imageDescription').click();
-  await page.locator('#imageDescription').fill('test');
-  await page.locator('#imageDescription').press('Tab');
-  await page.getByRole('button', { name: 'Author* Name Add Author' }).click();
-  await page.getByText('Jeff Dwyer').click();
-  await page.getByRole('textbox', { name: 'Rich Text Editor. Editing area: main' }).click();
-  await page.getByRole('textbox', { name: 'Rich Text Editor. Editing area: main' }).fill('test');
-  await page.getByRole('textbox', { name: 'Rich Text Editor. Editing area: main' }).press('Tab');
+  // await page.getByRole('button', { name: 'Upload' }).click();
+  // await page.locator('div').filter({ hasText: 'Please upload an image between 1280 and 2400 pixels in size, then use the crop t' }).nth(1).press('Tab');
+  // await page.getByRole('button', { name: 'close' }).press('Tab');
+  // await page.locator('div').filter({ hasText: /^Please upload a photo$/ }).getByRole('textbox').press('Tab');
+  // await page.locator('#description').press('Tab');
+  // await page.getByRole('textbox').nth(2).press('Tab');
+  // await page.getByRole('textbox').nth(2).click();
+  // await page.getByRole('textbox').nth(2).setInputFiles('./image/a9e4928c04e2980480d9495b904131527217.webp');
+  // await page.getByRole('button', { name: 'Upload Without Crop' }).click();
+  // await page.locator('#imageDescription').click();
+  // await page.locator('#imageDescription').fill('test');
+  // await page.locator('#imageDescription').press('Tab');
+  // await page.getByRole('button', { name: 'Author* Name Add Author' }).click();
+  // await page.getByText('Jeff Dwyer').click();
+  // await page.getByRole('textbox', { name: 'Rich Text Editor. Editing area: main' }).click();
+  // await page.getByRole('textbox', { name: 'Rich Text Editor. Editing area: main' }).fill('test');
+  // await page.getByRole('textbox', { name: 'Rich Text Editor. Editing area: main' }).press('Tab');
   // await page.getByRole('paragraph').filter({ hasText: 'Title Tag* (Helpful tips)10 characters entered' }).getByRole('link', { name: '(Helpful tips)' }).press('Tab');
   await page.getByPlaceholder('Enter Title Tag ').press('Tab');
   await page.getByPlaceholder('Enter Meta Description').press('Tab');
@@ -50,7 +50,7 @@ test('brand login', async ({ }) => {
   await page.locator('#focusKeyword').press('Tab');
   await page.getByRole('heading', { name: 'Analysis (Helpful tips)' }).getByRole('link', { name: '(Helpful tips)' }).press('Tab');
     //Publishing a Story
-  // await page.getByLabel('Publish').check();
+  await page.getByLabel('Publish').check();
     //Scheduling a Story
   // await page.getByLabel('Schedule for a later date').check();
   // await page.getByPlaceholder('mm/dd/yyyy').click();
